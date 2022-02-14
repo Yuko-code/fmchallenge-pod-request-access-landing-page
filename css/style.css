@@ -1,0 +1,131 @@
+:root {
+  --color-primary:#121725;
+  --color-accent:#54E6AF;
+  --color-grey:#2C344B;
+  --color-text-white:#FFFFFF;
+  --color-text-darkgrey:#5A668A;
+  --color-text-grey:#C2CBE5; }
+
+/*
+ @media only screen and (max-width: $bp-small){
+
+    }
+*/
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 70em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 57em) {
+    html {
+      font-size: 37.5%; } }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 62.5%; } }
+
+body {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+  background-color: var(--color-primary);
+  color: var(--color-text-white); }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer; }
+
+.main {
+  height: 100vh; }
+
+.logo {
+  position: absolute;
+  top: 10rem;
+  left: 16rem; }
+
+.bg-img {
+  background-image: url("/assets/desktop/image-host.jpg");
+  background-repeat: no-repeat;
+  height: 64rem;
+  width: 88.8rem;
+  position: absolute;
+  top: 13rem;
+  right: 0; }
+
+.bg-pattern-dots {
+  background-image: url("/assets/desktop/bg-pattern-dots.svg");
+  background-repeat: no-repeat;
+  height: 10.4rem;
+  width: 23.2rem;
+  position: absolute;
+  top: 72rem;
+  right: 0; }
+
+.article {
+  background-color: var(--color-primary);
+  height: 50.9rem;
+  width: 72.3rem;
+  position: absolute;
+  top: 26.5rem;
+  left: 16rem;
+  padding: 9rem 6rem 0 0; }
+
+.providers {
+  display: flex;
+  justify-content: space-between;
+  width: 53.6rem;
+  margin-top: 6rem; }
+
+.providers-item {
+  height: 2rem; }
+
+.email-form {
+  position: relative;
+  display: flex;
+  align-items: center; }
+
+.email {
+  background-color: var(--color-grey);
+  border: none;
+  height: 5.6rem;
+  width: 42.7rem;
+  border-radius: 28px;
+  padding-left: 3rem; }
+  .email::placeholder {
+    font-size: 1.4rem;
+    font-weight: 700; }
+
+.submit-btn {
+  background-color: var(--color-accent);
+  border: none;
+  height: 4.6rem;
+  border-radius: 28px;
+  padding: 0 2.5rem;
+  position: absolute;
+  right: 24rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: capitalize; }
+
+.h-article {
+  font-weight: 300;
+  font-size: 5.2rem;
+  text-transform: uppercase;
+  line-height: 6.2rem; }
+  .h-article__span {
+    color: var(--color-accent); }
+
+.p-article {
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin: 3rem 22rem 4rem 0;
+  line-height: 2.8rem; }

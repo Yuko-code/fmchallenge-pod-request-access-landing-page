@@ -1,0 +1,49 @@
+.main{
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+    top:10rem;
+    left:16rem;
+}
+.bg-img{
+    background-image: url("/assets/desktop/image-host.jpg");
+    background-repeat: no-repeat;
+    height:64rem;
+    width:88.8rem;
+    position:absolute;
+    top: 13rem;
+    right: 0;
+}
+.bg-pattern-dots{
+    background-image: url("/assets/desktop/bg-pattern-dots.svg");
+    background-repeat: no-repeat;
+    height: 10.4rem;
+    width: 23.2rem;
+    position:absolute;
+    top: 72rem;
+    right:0;
+}
+
+.article{
+    background-color: var(--color-primary);
+    height:50.9rem;
+    width:72.3rem;
+    position:absolute;
+    top: 26.5rem;
+    left: 16rem;
+    padding: 9rem 6rem 0 0;
+}
+
+
+.providers{
+    display: flex;
+    justify-content: space-between;
+    width: 53.6rem;
+    margin-top:6rem;
+}
+
+.providers-item{
+    height: 2rem;
+}

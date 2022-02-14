@@ -1,0 +1,15 @@
+.h-article{
+    font-weight: 300;
+    font-size: 5.2rem;
+    text-transform: uppercase;
+    line-height: 6.2rem;
+    &__span{
+        color:var(--color-accent);
+    }
+}
+.p-article{
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin:3rem 22rem 4rem 0;
+    line-height: 2.8rem;
+}

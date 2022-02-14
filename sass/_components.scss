@@ -1,0 +1,37 @@
+.email-form{
+   position:relative;
+   display: flex;
+   align-items: center;
+
+}
+
+.email{
+    background-color: var(--color-grey);
+    border:none;
+    height: 5.6rem;
+    width: 42.7rem;
+    border-radius: 28px;
+    padding-left:3rem;
+    &::placeholder{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+}
+
+.submit-btn{
+    background-color: var(--color-accent);
+    border: none;
+    height: 4.6rem;
+    border-radius: 28px;
+    padding: 0 2.5rem;
+    position:absolute;
+    right: 24rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.error-msg{
+
+}
